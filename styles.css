@@ -69,11 +69,11 @@ bordered {
 
 #clear {
   text-align: center;
-  background-color: cornsilk;
+  background-color: darksalmon;
 }
 #backspace {
   text-align: center;
-  background-color: cornsilk;
+  background-color: darksalmon;
 }
 #toprow {
   display: flex;
@@ -100,4 +100,8 @@ bordered {
 #middle {
   width: 100%;
   height: 80%;
+}
+
+.buttons:hover {
+  transform: scale(1.05);
 }
