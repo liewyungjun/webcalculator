@@ -2,12 +2,18 @@
 <html>
 
 <head>
-    <title>Page Title</title>
+    <title>Jun's Calculator</title>
     <meta charset="UTF-8" />
     <link rel ='stylesheet' href='styles.css'>
 </head>
 
 <body>
+    <div id='background'>
+        <div id='top'></div>
+        <div id='middle'></div>
+        <div id='bot'></div>
+    </div>
+    <div id=title>Jun's Calculator !</div>
     <div class='centered' id='wholecalc'>
         <div  id='display'>0</div>
         <div id='toprow'><div class='buttons' id='clear'>CE</div>
@@ -50,8 +56,8 @@
                         firstNum=displaynum;
                         secondNum='';
                         operatorPressed=false;
-                        operationChosen='';
-                        console.log([firstNum,secondNum,operatorPressed])
+                        operatorChosen='';
+                        console.log([firstNum,secondNum,operatorPressed,operatorChosen])
                         if (a.id!=='equals'){
                             operatorChosen=z;
                             displaynum+=z;
